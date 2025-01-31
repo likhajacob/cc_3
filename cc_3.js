@@ -32,3 +32,16 @@ employee.promotionEligible = employee.performanceScore > 95;
 
 // Log the updated employee object to the console
 console.log(employee);
+
+// Task 4 - customer feedback records
+let feedback = [
+    { customerName: "Anna", feedbackText: "Great service!", rating: 5 },
+    { customerName: "Boban", feedbackText: "Satisfactory experience.", rating: 4 },
+    { customerName: "Molly", feedbackText: "Could be better.", rating: 3 }
+];
+
+// Add a new feedback object
+feedback.push({ customerName: "David", feedbackText: "Excellent support!", rating: 5 });
+
+// Log the entire feedback list to the console
+console.log(feedback);
